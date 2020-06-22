@@ -1,6 +1,5 @@
-#body-container {
-    display: block;
-    margin: 15px;
+body {
+    margin: 0;
 }
 
 a {
@@ -18,7 +17,7 @@ a:hover {
 #navbar {
     display: inline-block;
     height: 50px;
-    padding-top: 4px;
+    padding-top: 10px;
     padding-right: 30px;
     width: 100%;
 }
@@ -48,8 +47,9 @@ a:hover {
 }
 
 #user {    
-    height: 20px;
-    margin-top: -1px;    
+    height: 23px;
+    width: auto;
+    margin-top: -3px;    
 }
 
 ul {
@@ -83,7 +83,11 @@ li {
     height: 37px;
     border-radius: 20px;
     border: solid rgb(185, 185, 185) 1px;
-}
+    }
+
+#search-div:hover {
+    box-shadow: 1px 1px 1px #cecccc;
+    }
 
 #search-box {
     display: block;
@@ -131,4 +135,40 @@ button {
     font-weight: 100;
     color: #5F6368;
     font-size: 14px;
+}
+
+button:hover {
+    border: solid grey 1px;
+    }
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #F2F2F2;
+    width: 100%;    
+    border-top: 1px rgb(202, 199, 199) solid;
+}
+
+#footer-ul {
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+#footer-ul a {
+    color: rgba(0,0,0,.54);
+}
+
+#country-div {
+    position: fixed;
+    bottom: 36px;
+    background-color: #F2F2F2;
+    width: 100%;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    height: 40px;
+    padding-left: 30px;
+}
+
+#country {
+    padding-top: 12px;
 }
