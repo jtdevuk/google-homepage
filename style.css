@@ -1,3 +1,8 @@
+#body-container {
+    display: block;
+    margin: 15px;
+}
+
 a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -24,6 +29,10 @@ a:hover {
 
 .left {
     float: left;
+}
+
+.right {
+    float: right;
 }
 
 #square {    
@@ -54,17 +63,54 @@ li {
     background-color: red;
 }
 
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
 #letter {
     display: block;
     margin-left: 3px;
     margin-top: -2px;
     color: white;
+}
+
+
+#logo {
+    display: block;
+    margin: 130px auto 30px auto;
+}
+
+#search-div {
+    display: block;
+    margin: 0 auto;
+    width: 580px;
+    height: 37px;
+    border-radius: 20px;
+    border: solid rgb(185, 185, 185) 1px;
+}
+
+#search-box {
+    display: block;
+    height: 80%;
+    margin: -30px auto;
+    width: 85%;
+    border: none;
+}
+
+#search-box:focus {
+    outline: none;
+}
+
+#search-icon {
+    display: block;
+    position: relative;
+    left: 15px;
+    top: 12px;
+    height: 14px;
+    width: auto;
+}
+
+#mic-icon {
+    display: block;
+    position: relative;
+    height: 20px;
+    width: auto;
+    left: 550px;
+    top: -5px;
 }
